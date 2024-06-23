@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Define a imagem de fundo para o corpo da página */
+body {
+    background-image: url('src/main/view/images/fundo champions.jpg'); /* Caminho para a imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-attachment: fixed; /* Faz com que a imagem de fundo fique fixa durante a rolagem */
+    background-position: center; /* Centraliza a imagem de fundo */
+    font-family: Arial, sans-serif; /* Define uma fonte padrão para a página */
+    color: #fff; /* Define a cor do texto para branco para melhor contraste */
+    margin: 0; /* Remove as margens padrão do corpo */
+    padding: 0; /* Remove os preenchimentos padrão do corpo */
+}
+
+/* Estilo para os títulos */
+h1, h2 {
+    text-align: center; /* Centraliza os títulos */
+    text-shadow: 2px 2px 4px #000; /* Adiciona uma sombra ao texto para melhorar a legibilidade */
+}
+
+/* Estilo para o formulário de adição de times */
+form {
+    display: flex; /* Usa flexbox para organizar os elementos do formulário */
+    flex-direction: column; /* Organiza os elementos em uma coluna */
+    max-width: 300px; /* Define uma largura máxima para o formulário */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+    background: rgba(0, 0, 0, 0.5); /* Adiciona um fundo semi-transparente ao formulário */
+    padding: 20px; /* Adiciona um preenchimento interno ao formulário */
+    border-radius: 10px; /* Adiciona cantos arredondados ao formulário */
+}
+
+/* Estilo para os campos do formulário */
+form input {
+    margin-bottom: 10px; /* Adiciona uma margem inferior aos campos */
+    padding: 10px; /* Adiciona um preenchimento interno aos campos */
+    border: none; /* Remove a borda padrão dos campos */
+    border-radius: 5px; /* Adiciona cantos arredondados aos campos */
+}
+
+/* Estilo para o botão de submissão */
+form button {
+    padding: 10px; /* Adiciona um preenchimento interno ao botão */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Adiciona cantos arredondados ao botão */
+    background-color: #007BFF; /* Define a cor de fundo do botão */
+    color: #fff; /* Define a cor do texto do botão */
+    cursor: pointer; /* Adiciona um cursor de ponteiro ao passar o mouse sobre o botão */
+}
+
+/* Estilo para a lista de times */
+#teamList {
+    list-style-type: none; /* Remove as marcações da lista */
+    padding: 0; /* Remove o preenchimento da lista */
+    max-width: 600px; /* Define uma largura máxima para a lista */
+    margin: 20px auto; /* Centraliza a lista e adiciona uma margem superior */
+    background: rgba(0, 0, 0, 0.5); /* Adiciona um fundo semi-transparente à lista */
+    border-radius: 10px; /* Adiciona cantos arredondados à lista */
+    padding: 20px; /* Adiciona um preenchimento interno à lista */
+}
+
+#teamList li {
+    padding: 10px; /* Adiciona um preenchimento interno aos itens da lista */
+    border-bottom: 1px solid #fff; /* Adiciona uma borda inferior aos itens da lista */
+    color: #fff; /* Define a cor do texto dos itens da lista */
+}
+
+#teamList li:last-child {
+    border-bottom: none; /* Remove a borda inferior do último item da lista */
+}

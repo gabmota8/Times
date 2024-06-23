@@ -1,0 +1,4 @@
+com\Crud\Teams\Model\Team.class
+com\Crud\Teams\Controller\TeamController.class
+com\Crud\Teams\Controller\Listas.class
+com\Crud\Teams\TimesApplication.class
