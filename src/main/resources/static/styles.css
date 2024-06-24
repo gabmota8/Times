@@ -1,11 +1,13 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url('background-image: url("../../media/examples/lizard.png");'); /* Certifique-se de que o caminho da imagem está correto */
+    background-size: cover;
 }
 
 #team-list {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 20px 0 0 0;
 }
 
 #team-list li {
@@ -15,6 +17,19 @@ body {
 
 #team-list li:last-child {
     border-bottom: none;
+}
+
+#team-list button {
+    margin-left: 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#team-list button:hover {
+    background-color: #d32f2f;
 }
 
 #add-team-form {
@@ -32,4 +47,22 @@ body {
 
 #add-team-btn:hover {
     background-color: #3e8e41;
+}
+
+.notification {
+    display: none;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.success {
+    color: green;
+    border-color: green;
+}
+
+.error {
+    color: red;
+    border-color: red;
 }
